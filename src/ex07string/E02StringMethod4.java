@@ -25,6 +25,7 @@ public class E02StringMethod4 {
             System.out.println("여성입니다.");
         } else {
             System.out.println("남성입니다.");
+            System.out.println();
         }
     }
 
