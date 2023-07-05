@@ -12,7 +12,7 @@ public class E02StringMethod4 {
 		프로그램을 charAt()을 이용해서 작성하시오.
 		190419-3000000 => 남자
 		190419-4000000 => 여자
-		*/
+]		*/
 		Scanner scanner = new Scanner(System.in);
 
         System.out.print("주민등록번호를 입력하세요: ");
@@ -27,7 +27,7 @@ public class E02StringMethod4 {
             System.out.println("남성입니다.");
         }
     }
-///////////////////////////////////////////////////////////
+
 		
 		/*
 		시나리오] 해당 문자열이 이메일 형식인지 검사하는
