@@ -59,9 +59,13 @@ public class E06Overriding {
 		/* 부모클래스의 참조변수로 자식인스턴스를 참조할 수 있다.
 		이것은 상속관계이기 때문에 가능하다. */
 		Speaker speaker = new BaseSpeaker();
+		/* 단, 부모타입의 변수로 자식 인스턴스를 참조하면 접근할 수 있는
+		범위가 부모 인스턴스까지 제한되므로, 자식쪽에 정의되어
+		있는 setBase()는 호출할수 없게 된다. */
 		speaker.setVolumn(30);
-//		speaker.setBase(40);//[에러발생]
-		
+		//speaker.setBase(40);//[에러발생]
+		/*  접근범위는 앞ㄹ에서 설명한 바와 같이 부모까지 제한되지만
+		오버라이딩 된 메서드가 있다면 자식쪽의 메서드가 호출된다. */
 		speaker.showState();
 	}
 }

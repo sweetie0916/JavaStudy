@@ -27,8 +27,8 @@ public class E03FruitSalesMain4 {
 		FruitBuyer4 buyer = new FruitBuyer4(10000, 0);
 
 		System.out.println("구매행위가 일어나기전의 상태");
-		seller1.showSaleResult();
-		seller2.showSaleResult();
+		seller1.showsaleResult();
+		seller2.showsaleResult();
 		buyer.showBuyResult();
 
 		//판매자1, 2에게 각각 5000원씩 지불한 후 사과 구매
@@ -36,8 +36,8 @@ public class E03FruitSalesMain4 {
 		buyer.buyApple(seller2, 5000);
 
 		System.out.println("구매행위가 일어난 후의 상태");
-		seller1.showSaleResult();
-		seller2.showSaleResult();
+		seller1.showsaleResult();
+		seller2.showsaleResult();
 		buyer.showBuyResult();	 
 	}
 }
